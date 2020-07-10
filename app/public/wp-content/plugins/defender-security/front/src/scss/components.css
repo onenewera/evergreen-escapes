@@ -1,0 +1,19 @@
+.wd-calendar {
+  width: 530px !important;
+}
+
+.wd-calendar .ranges {
+  width: 100% !important;
+}
+
+.wd-calendar .ranges ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100% !important;
+}
+/*# sourceMappingURL=components.css.map */

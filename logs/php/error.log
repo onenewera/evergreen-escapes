@@ -1,0 +1,1317 @@
+[19-Jan-2020 17:32:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 41
+[19-Jan-2020 17:47:38 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php:344
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(344): in_array('jquery-ui-datep...', Array)
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#3 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#4 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#5 /Users/donnywilson/ in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php on line 344
+[19-Jan-2020 17:47:42 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php:344
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(344): in_array('jquery-ui-datep...', Array)
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#3 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#4 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#5 /Users/donnywilson/ in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php on line 344
+[19-Jan-2020 17:47:43 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php:344
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(344): in_array('jquery-ui-datep...', Array)
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#3 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#4 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php(346): WP_Dependencies->recurse_deps(Array, 'jquery-ui-datep...')
+#5 /Users/donnywilson/ in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class.wp-dependencies.php on line 344
+[19-Jan-2020 17:59:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'theme_scripts' not found or invalid function name in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class-wp-hook.php on line 288
+[19-Jan-2020 17:59:13 UTC] PHP Stack trace:
+[19-Jan-2020 17:59:13 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:0
+[19-Jan-2020 17:59:13 UTC] PHP   2. require() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:17
+[19-Jan-2020 17:59:13 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php:19
+[19-Jan-2020 17:59:13 UTC] PHP   4. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template-loader.php:98
+[19-Jan-2020 17:59:13 UTC] PHP   5. get_header() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php:1
+[19-Jan-2020 17:59:13 UTC] PHP   6. locate_template() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/general-template.php:41
+[19-Jan-2020 17:59:13 UTC] PHP   7. load_template() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php:671
+[19-Jan-2020 17:59:13 UTC] PHP   8. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php:722
+[19-Jan-2020 17:59:13 UTC] PHP   9. wp_head() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/header.php:5
+[19-Jan-2020 17:59:13 UTC] PHP  10. do_action() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/general-template.php:2879
+[19-Jan-2020 17:59:13 UTC] PHP  11. WP_Hook->do_action() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/plugin.php:478
+[19-Jan-2020 17:59:13 UTC] PHP  12. WP_Hook->apply_filters() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class-wp-hook.php:312
+[19-Jan-2020 17:59:13 UTC] PHP  13. wp_enqueue_scripts() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class-wp-hook.php:288
+[19-Jan-2020 17:59:13 UTC] PHP  14. do_action() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/script-loader.php:2670
+[19-Jan-2020 17:59:13 UTC] PHP  15. WP_Hook->do_action() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/plugin.php:478
+[19-Jan-2020 17:59:13 UTC] PHP  16. WP_Hook->apply_filters() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/class-wp-hook.php:312
+[19-Jan-2020 21:57:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 4
+[19-Jan-2020 21:58:02 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 4
+[19-Jan-2020 21:58:03 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 4
+[19-Jan-2020 21:58:04 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 4
+[19-Jan-2020 22:03:01 UTC] PHP Warning:  Use of undefined constant the - assumed 'the' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 15
+[19-Jan-2020 22:03:01 UTC] PHP Stack trace:
+[19-Jan-2020 22:03:01 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:0
+[19-Jan-2020 22:03:01 UTC] PHP   2. require() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:17
+[19-Jan-2020 22:03:01 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php:19
+[19-Jan-2020 22:03:01 UTC] PHP   4. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template-loader.php:98
+[19-Jan-2020 22:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function content() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php:15
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php(19): require_once('/Users/donnywil...')
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php(17): require('/Users/donnywil...')
+#3 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php on line 15
+[19-Jan-2020 22:09:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:06 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/themes.php:0
+[19-Jan-2020 22:09:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/themes.php:10
+[19-Jan-2020 22:09:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:06 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:06 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:06 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:0
+[19-Jan-2020 22:09:06 UTC] PHP   2. require() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:17
+[19-Jan-2020 22:09:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php:13
+[19-Jan-2020 22:09:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:06 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:06 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:09 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[19-Jan-2020 22:09:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[19-Jan-2020 22:09:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:09 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:09 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:09 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[19-Jan-2020 22:09:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[19-Jan-2020 22:09:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:09 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:09 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:28 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:28 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:28 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[19-Jan-2020 22:09:28 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[19-Jan-2020 22:09:28 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:28 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:28 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:28 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:28 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:28 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:28 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[19-Jan-2020 22:09:28 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[19-Jan-2020 22:09:28 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:28 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:28 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:28 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:40 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:40 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:40 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:09:40 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:09:40 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:40 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:40 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:09:52 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:09:52 UTC] PHP Stack trace:
+[19-Jan-2020 22:09:52 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[19-Jan-2020 22:09:52 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[19-Jan-2020 22:09:52 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[19-Jan-2020 22:09:52 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:09:52 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:09:52 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:10:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:10:53 UTC] PHP Stack trace:
+[19-Jan-2020 22:10:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:10:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:10:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:10:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:10:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:12:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:12:53 UTC] PHP Stack trace:
+[19-Jan-2020 22:12:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:12:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:12:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:12:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:12:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:14:54 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:14:54 UTC] PHP Stack trace:
+[19-Jan-2020 22:14:54 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:14:54 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:14:54 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:14:54 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:14:54 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:16:55 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:16:55 UTC] PHP Stack trace:
+[19-Jan-2020 22:16:55 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:16:55 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:16:55 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:16:55 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:16:55 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:19:07 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:19:07 UTC] PHP Stack trace:
+[19-Jan-2020 22:19:07 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:19:07 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:19:07 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:19:07 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:19:07 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:21:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:21:09 UTC] PHP Stack trace:
+[19-Jan-2020 22:21:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:21:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:21:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:21:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:21:09 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:23:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:23:09 UTC] PHP Stack trace:
+[19-Jan-2020 22:23:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:23:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:23:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:23:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:23:09 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:25:16 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:25:16 UTC] PHP Stack trace:
+[19-Jan-2020 22:25:16 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:25:16 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:25:16 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:25:16 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:25:16 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:27:24 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:27:24 UTC] PHP Stack trace:
+[19-Jan-2020 22:27:24 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:27:24 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:27:24 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:27:24 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:27:24 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:29:27 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:29:27 UTC] PHP Stack trace:
+[19-Jan-2020 22:29:27 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:29:27 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:29:27 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:29:27 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:29:27 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:31:34 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:31:34 UTC] PHP Stack trace:
+[19-Jan-2020 22:31:34 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:31:34 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:31:34 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:31:34 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:31:34 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:33:38 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:33:38 UTC] PHP Stack trace:
+[19-Jan-2020 22:33:38 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:33:38 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:33:38 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:33:38 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:33:38 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:35:43 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:35:43 UTC] PHP Stack trace:
+[19-Jan-2020 22:35:43 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:35:43 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:35:43 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:35:43 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:35:43 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:37:44 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:37:44 UTC] PHP Stack trace:
+[19-Jan-2020 22:37:44 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:37:44 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:37:44 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:37:44 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:37:44 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:39:46 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:39:46 UTC] PHP Stack trace:
+[19-Jan-2020 22:39:46 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:39:46 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:39:46 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:39:46 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:39:46 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:41:58 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:41:58 UTC] PHP Stack trace:
+[19-Jan-2020 22:41:58 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:41:58 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:41:58 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:41:58 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:41:58 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:43:59 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:43:59 UTC] PHP Stack trace:
+[19-Jan-2020 22:43:59 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:43:59 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:43:59 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:43:59 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:43:59 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:46:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:46:02 UTC] PHP Stack trace:
+[19-Jan-2020 22:46:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:46:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:46:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:46:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:46:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:48:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:48:03 UTC] PHP Stack trace:
+[19-Jan-2020 22:48:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:48:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:48:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:48:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:48:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:50:07 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:50:07 UTC] PHP Stack trace:
+[19-Jan-2020 22:50:07 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:50:07 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:50:07 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:50:07 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:50:07 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:52:08 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:52:08 UTC] PHP Stack trace:
+[19-Jan-2020 22:52:08 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:52:08 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:52:08 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:52:08 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:52:08 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:54:13 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:54:13 UTC] PHP Stack trace:
+[19-Jan-2020 22:54:13 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:54:13 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:54:13 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:54:13 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:54:13 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:56:20 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:56:20 UTC] PHP Stack trace:
+[19-Jan-2020 22:56:20 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:56:20 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:56:20 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:56:20 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:56:20 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 22:58:30 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 22:58:30 UTC] PHP Stack trace:
+[19-Jan-2020 22:58:30 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 22:58:30 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 22:58:30 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 22:58:30 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 22:58:30 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:00:33 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:00:33 UTC] PHP Stack trace:
+[19-Jan-2020 23:00:33 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:00:33 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:00:33 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:00:33 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:00:33 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:02:33 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:02:33 UTC] PHP Stack trace:
+[19-Jan-2020 23:02:33 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:02:33 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:02:33 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:02:33 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:02:33 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:04:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:04:36 UTC] PHP Stack trace:
+[19-Jan-2020 23:04:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:04:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:04:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:04:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:04:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:04:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:04:36 UTC] PHP Stack trace:
+[19-Jan-2020 23:04:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:0
+[19-Jan-2020 23:04:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:44
+[19-Jan-2020 23:04:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:04:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:04:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:06:37 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:06:37 UTC] PHP Stack trace:
+[19-Jan-2020 23:06:37 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:06:37 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:06:37 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:06:37 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:06:37 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:08:42 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:08:42 UTC] PHP Stack trace:
+[19-Jan-2020 23:08:42 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:08:42 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:08:42 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:08:42 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:08:42 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:10:45 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:10:45 UTC] PHP Stack trace:
+[19-Jan-2020 23:10:45 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:10:45 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:10:45 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:10:45 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:10:45 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:12:50 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:12:50 UTC] PHP Stack trace:
+[19-Jan-2020 23:12:50 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:12:50 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:12:50 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:12:50 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:12:50 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:14:50 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:14:50 UTC] PHP Stack trace:
+[19-Jan-2020 23:14:50 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:14:50 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:14:50 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:14:50 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:14:50 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:17:00 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:17:00 UTC] PHP Stack trace:
+[19-Jan-2020 23:17:00 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:17:00 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:17:00 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:17:00 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:17:00 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:19:05 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:19:05 UTC] PHP Stack trace:
+[19-Jan-2020 23:19:05 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:19:05 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:19:05 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:19:05 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:19:05 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:21:05 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:21:05 UTC] PHP Stack trace:
+[19-Jan-2020 23:21:05 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:21:05 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:21:05 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:21:05 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:21:05 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:23:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:23:09 UTC] PHP Stack trace:
+[19-Jan-2020 23:23:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:23:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:23:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:23:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:23:09 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:25:09 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:25:09 UTC] PHP Stack trace:
+[19-Jan-2020 23:25:09 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:25:09 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:25:09 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:25:09 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:25:09 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:27:13 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:27:13 UTC] PHP Stack trace:
+[19-Jan-2020 23:27:13 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:27:13 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:27:13 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:27:13 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:27:13 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:29:25 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:29:25 UTC] PHP Stack trace:
+[19-Jan-2020 23:29:25 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:29:25 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:29:25 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:29:25 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:29:25 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:31:30 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:31:30 UTC] PHP Stack trace:
+[19-Jan-2020 23:31:30 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:31:30 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:31:30 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:31:30 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:31:30 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:33:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:33:36 UTC] PHP Stack trace:
+[19-Jan-2020 23:33:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:33:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:33:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:33:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:33:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:35:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:35:36 UTC] PHP Stack trace:
+[19-Jan-2020 23:35:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:35:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:35:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:35:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:35:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:37:39 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:37:39 UTC] PHP Stack trace:
+[19-Jan-2020 23:37:39 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:37:39 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:37:39 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:37:39 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:37:39 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:39:43 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:39:43 UTC] PHP Stack trace:
+[19-Jan-2020 23:39:43 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:39:43 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:39:43 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:39:43 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:39:43 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:41:48 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:41:48 UTC] PHP Stack trace:
+[19-Jan-2020 23:41:48 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:41:48 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:41:48 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:41:48 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:41:48 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:43:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:43:53 UTC] PHP Stack trace:
+[19-Jan-2020 23:43:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:43:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:43:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:43:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:43:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:45:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:45:53 UTC] PHP Stack trace:
+[19-Jan-2020 23:45:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:45:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:45:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:45:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:45:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:47:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:47:53 UTC] PHP Stack trace:
+[19-Jan-2020 23:47:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:47:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:47:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:47:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:47:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:49:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:49:53 UTC] PHP Stack trace:
+[19-Jan-2020 23:49:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:49:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:49:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:49:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:49:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:52:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:52:02 UTC] PHP Stack trace:
+[19-Jan-2020 23:52:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:52:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:52:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:52:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:52:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:54:08 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:54:08 UTC] PHP Stack trace:
+[19-Jan-2020 23:54:08 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:54:08 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:54:08 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:54:08 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:54:08 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:56:11 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:56:11 UTC] PHP Stack trace:
+[19-Jan-2020 23:56:11 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:56:11 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:56:11 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:56:11 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:56:11 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[19-Jan-2020 23:58:22 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[19-Jan-2020 23:58:22 UTC] PHP Stack trace:
+[19-Jan-2020 23:58:22 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[19-Jan-2020 23:58:22 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[19-Jan-2020 23:58:22 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[19-Jan-2020 23:58:22 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[19-Jan-2020 23:58:22 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:00:34 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:00:34 UTC] PHP Stack trace:
+[20-Jan-2020 00:00:34 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:00:34 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:00:34 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:00:34 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:00:34 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:02:37 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:02:37 UTC] PHP Stack trace:
+[20-Jan-2020 00:02:37 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:02:37 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:02:37 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:02:37 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:02:37 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:04:41 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:04:41 UTC] PHP Stack trace:
+[20-Jan-2020 00:04:41 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:04:41 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:04:41 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:04:41 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:04:41 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:04:41 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:04:41 UTC] PHP Stack trace:
+[20-Jan-2020 00:04:41 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:0
+[20-Jan-2020 00:04:41 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:44
+[20-Jan-2020 00:04:41 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:04:41 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:04:41 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:06:46 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:06:46 UTC] PHP Stack trace:
+[20-Jan-2020 00:06:46 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:06:46 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:06:46 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:06:46 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:06:46 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:08:59 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:08:59 UTC] PHP Stack trace:
+[20-Jan-2020 00:08:59 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:08:59 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:08:59 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:08:59 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:08:59 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:11:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:11:02 UTC] PHP Stack trace:
+[20-Jan-2020 00:11:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:11:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:11:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:11:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:11:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:13:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:13:06 UTC] PHP Stack trace:
+[20-Jan-2020 00:13:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:13:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:13:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:13:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:13:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:15:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:15:10 UTC] PHP Stack trace:
+[20-Jan-2020 00:15:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:15:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:15:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:15:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:15:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:17:11 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:17:11 UTC] PHP Stack trace:
+[20-Jan-2020 00:17:11 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:17:11 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:17:11 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:17:11 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:17:11 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:19:16 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:19:16 UTC] PHP Stack trace:
+[20-Jan-2020 00:19:16 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:19:16 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:19:16 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:19:16 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:19:16 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:21:24 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:21:24 UTC] PHP Stack trace:
+[20-Jan-2020 00:21:24 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:21:24 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:21:24 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:21:24 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:21:24 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:23:26 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:23:26 UTC] PHP Stack trace:
+[20-Jan-2020 00:23:26 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:23:26 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:23:26 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:23:26 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:23:26 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:25:27 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:25:27 UTC] PHP Stack trace:
+[20-Jan-2020 00:25:27 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:25:27 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:25:27 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:25:27 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:25:27 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:27:33 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:27:33 UTC] PHP Stack trace:
+[20-Jan-2020 00:27:33 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:27:33 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:27:33 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:27:33 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:27:33 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:29:34 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:29:34 UTC] PHP Stack trace:
+[20-Jan-2020 00:29:34 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:29:34 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:29:34 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:29:34 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:29:34 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:31:41 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:31:41 UTC] PHP Stack trace:
+[20-Jan-2020 00:31:41 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:31:41 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:31:41 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:31:41 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:31:41 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:33:45 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:33:45 UTC] PHP Stack trace:
+[20-Jan-2020 00:33:45 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:33:45 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:33:45 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:33:45 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:33:45 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:35:56 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:35:56 UTC] PHP Stack trace:
+[20-Jan-2020 00:35:56 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:35:56 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:35:56 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:35:56 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:35:56 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:38:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:38:03 UTC] PHP Stack trace:
+[20-Jan-2020 00:38:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:38:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:38:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:38:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:38:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:40:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:40:06 UTC] PHP Stack trace:
+[20-Jan-2020 00:40:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:40:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:40:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:40:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:40:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:42:08 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:42:08 UTC] PHP Stack trace:
+[20-Jan-2020 00:42:08 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:42:08 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:42:08 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:42:08 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:42:08 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:44:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:44:10 UTC] PHP Stack trace:
+[20-Jan-2020 00:44:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:44:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:44:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:44:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:44:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:46:15 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:46:15 UTC] PHP Stack trace:
+[20-Jan-2020 00:46:15 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:46:15 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:46:15 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:46:15 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:46:15 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:48:21 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:48:21 UTC] PHP Stack trace:
+[20-Jan-2020 00:48:21 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:48:21 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:48:21 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:48:21 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:48:21 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:50:35 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:50:35 UTC] PHP Stack trace:
+[20-Jan-2020 00:50:35 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:50:35 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:50:35 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:50:35 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:50:35 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:52:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:52:36 UTC] PHP Stack trace:
+[20-Jan-2020 00:52:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:52:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:52:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:52:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:52:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:54:40 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:54:40 UTC] PHP Stack trace:
+[20-Jan-2020 00:54:40 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:54:40 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:54:40 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:54:40 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:54:40 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:56:50 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:56:50 UTC] PHP Stack trace:
+[20-Jan-2020 00:56:50 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:56:50 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:56:50 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:56:50 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:56:50 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 00:58:58 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 00:58:58 UTC] PHP Stack trace:
+[20-Jan-2020 00:58:58 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 00:58:58 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 00:58:58 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 00:58:58 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 00:58:58 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:00:58 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:00:58 UTC] PHP Stack trace:
+[20-Jan-2020 01:00:58 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:00:58 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:00:58 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:00:58 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:00:58 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:03:01 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:03:01 UTC] PHP Stack trace:
+[20-Jan-2020 01:03:01 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:03:01 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:03:01 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:03:01 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:03:01 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:05:05 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:05:05 UTC] PHP Stack trace:
+[20-Jan-2020 01:05:05 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:05:05 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:05:05 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:05:05 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:05:05 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:05:05 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:05:05 UTC] PHP Stack trace:
+[20-Jan-2020 01:05:05 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:0
+[20-Jan-2020 01:05:05 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:44
+[20-Jan-2020 01:05:05 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:05:05 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:05:05 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:07:11 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:07:11 UTC] PHP Stack trace:
+[20-Jan-2020 01:07:11 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:07:11 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:07:11 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:07:11 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:07:11 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:09:11 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:09:11 UTC] PHP Stack trace:
+[20-Jan-2020 01:09:11 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:09:11 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:09:11 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:09:11 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:09:11 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:11:16 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:11:16 UTC] PHP Stack trace:
+[20-Jan-2020 01:11:16 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:11:16 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:11:16 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:11:16 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:11:16 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:13:28 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:13:28 UTC] PHP Stack trace:
+[20-Jan-2020 01:13:28 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:13:28 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:13:28 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:13:28 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:13:28 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:15:35 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:15:35 UTC] PHP Stack trace:
+[20-Jan-2020 01:15:35 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:15:35 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:15:35 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:15:35 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:15:35 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:17:39 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:17:39 UTC] PHP Stack trace:
+[20-Jan-2020 01:17:39 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:17:39 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:17:39 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:17:39 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:17:39 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:19:44 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:19:44 UTC] PHP Stack trace:
+[20-Jan-2020 01:19:44 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:19:44 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:19:44 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:19:44 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:19:44 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:21:44 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:21:44 UTC] PHP Stack trace:
+[20-Jan-2020 01:21:44 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:21:44 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:21:44 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:21:44 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:21:44 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:23:52 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:23:52 UTC] PHP Stack trace:
+[20-Jan-2020 01:23:52 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:23:52 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:23:52 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:23:52 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:23:52 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:25:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:25:53 UTC] PHP Stack trace:
+[20-Jan-2020 01:25:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:25:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:25:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:25:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:25:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:27:53 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:27:53 UTC] PHP Stack trace:
+[20-Jan-2020 01:27:53 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:27:53 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:27:53 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:27:53 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:27:53 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:30:04 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:30:04 UTC] PHP Stack trace:
+[20-Jan-2020 01:30:04 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:30:04 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:30:04 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:30:04 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:30:04 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:32:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:32:06 UTC] PHP Stack trace:
+[20-Jan-2020 01:32:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:32:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:32:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:32:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:32:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:34:14 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:34:14 UTC] PHP Stack trace:
+[20-Jan-2020 01:34:14 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:34:14 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:34:14 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:34:14 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:34:14 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:36:17 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:36:17 UTC] PHP Stack trace:
+[20-Jan-2020 01:36:17 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:36:17 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:36:17 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:36:17 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:36:17 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:38:27 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:38:27 UTC] PHP Stack trace:
+[20-Jan-2020 01:38:27 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:38:27 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:38:27 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:38:27 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:38:27 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:40:29 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:40:29 UTC] PHP Stack trace:
+[20-Jan-2020 01:40:29 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:40:29 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:40:29 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:40:29 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:40:29 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:42:33 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:42:33 UTC] PHP Stack trace:
+[20-Jan-2020 01:42:33 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:42:33 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:42:33 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:42:33 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:42:33 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:44:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:44:36 UTC] PHP Stack trace:
+[20-Jan-2020 01:44:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:44:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:44:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:44:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:44:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:46:37 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:46:37 UTC] PHP Stack trace:
+[20-Jan-2020 01:46:37 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:46:37 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:46:37 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:46:37 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:46:37 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:48:42 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:48:42 UTC] PHP Stack trace:
+[20-Jan-2020 01:48:42 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:48:42 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:48:42 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:48:42 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:48:42 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:50:42 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:50:42 UTC] PHP Stack trace:
+[20-Jan-2020 01:50:42 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:50:42 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:50:42 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:50:42 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:50:42 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:52:48 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:52:48 UTC] PHP Stack trace:
+[20-Jan-2020 01:52:48 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:52:48 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:52:48 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:52:48 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:52:48 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:54:48 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:54:48 UTC] PHP Stack trace:
+[20-Jan-2020 01:54:48 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:54:48 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:54:48 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:54:48 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:54:48 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:56:58 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:56:58 UTC] PHP Stack trace:
+[20-Jan-2020 01:56:58 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:56:58 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:56:58 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:56:58 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:56:58 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 01:59:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 01:59:02 UTC] PHP Stack trace:
+[20-Jan-2020 01:59:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 01:59:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 01:59:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 01:59:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 01:59:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:01:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:01:02 UTC] PHP Stack trace:
+[20-Jan-2020 02:01:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:01:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:01:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:01:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:01:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:03:08 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:03:08 UTC] PHP Stack trace:
+[20-Jan-2020 02:03:08 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:03:08 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:03:08 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:03:08 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:03:08 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:05:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:05:10 UTC] PHP Stack trace:
+[20-Jan-2020 02:05:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:05:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:05:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:05:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:05:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:05:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:05:10 UTC] PHP Stack trace:
+[20-Jan-2020 02:05:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:0
+[20-Jan-2020 02:05:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:44
+[20-Jan-2020 02:05:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:05:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:05:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:07:15 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:07:15 UTC] PHP Stack trace:
+[20-Jan-2020 02:07:15 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:07:15 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:07:15 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:07:15 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:07:15 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:09:25 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:09:25 UTC] PHP Stack trace:
+[20-Jan-2020 02:09:25 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:09:25 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:09:25 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:09:25 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:09:25 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:11:34 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:11:34 UTC] PHP Stack trace:
+[20-Jan-2020 02:11:34 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:11:34 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:11:34 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:11:34 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:11:34 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:13:35 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:13:35 UTC] PHP Stack trace:
+[20-Jan-2020 02:13:35 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:13:35 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:13:35 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:13:35 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:13:35 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:15:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:15:36 UTC] PHP Stack trace:
+[20-Jan-2020 02:15:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:15:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:15:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:15:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:15:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:17:38 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:17:38 UTC] PHP Stack trace:
+[20-Jan-2020 02:17:38 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:17:38 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:17:38 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:17:38 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:17:38 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:19:44 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:19:44 UTC] PHP Stack trace:
+[20-Jan-2020 02:19:44 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:19:44 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:19:44 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:19:44 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:19:44 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:21:51 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:21:51 UTC] PHP Stack trace:
+[20-Jan-2020 02:21:51 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:21:51 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:21:51 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:21:51 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:21:51 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:24:00 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:24:00 UTC] PHP Stack trace:
+[20-Jan-2020 02:24:00 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:24:00 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:24:00 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:24:00 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:24:00 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:26:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:26:02 UTC] PHP Stack trace:
+[20-Jan-2020 02:26:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:26:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:26:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:26:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:26:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:28:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:28:03 UTC] PHP Stack trace:
+[20-Jan-2020 02:28:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:28:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:28:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:28:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:28:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:30:07 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:30:07 UTC] PHP Stack trace:
+[20-Jan-2020 02:30:07 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:30:07 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:30:07 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:30:07 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:30:07 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:32:11 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:32:11 UTC] PHP Stack trace:
+[20-Jan-2020 02:32:11 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:32:11 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:32:11 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:32:11 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:32:11 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:34:15 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:34:15 UTC] PHP Stack trace:
+[20-Jan-2020 02:34:15 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:34:15 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:34:15 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:34:15 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:34:15 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:36:20 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:36:20 UTC] PHP Stack trace:
+[20-Jan-2020 02:36:20 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:36:20 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:36:20 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:36:20 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:36:20 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:38:35 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:38:35 UTC] PHP Stack trace:
+[20-Jan-2020 02:38:35 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:38:35 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:38:35 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:38:35 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:38:35 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:40:39 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:40:39 UTC] PHP Stack trace:
+[20-Jan-2020 02:40:39 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:40:39 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:40:39 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:40:39 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:40:39 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:42:42 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:42:42 UTC] PHP Stack trace:
+[20-Jan-2020 02:42:42 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:42:42 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:42:42 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:42:42 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:42:42 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:44:43 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:44:43 UTC] PHP Stack trace:
+[20-Jan-2020 02:44:43 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:44:43 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:44:43 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:44:43 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:44:43 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:46:48 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:46:48 UTC] PHP Stack trace:
+[20-Jan-2020 02:46:48 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:46:48 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:46:48 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:46:48 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:46:48 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:48:55 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:48:55 UTC] PHP Stack trace:
+[20-Jan-2020 02:48:55 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:48:55 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:48:55 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:48:55 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:48:55 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:51:02 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:51:02 UTC] PHP Stack trace:
+[20-Jan-2020 02:51:02 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:51:02 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:51:02 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:51:02 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:51:02 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:53:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:53:03 UTC] PHP Stack trace:
+[20-Jan-2020 02:53:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:53:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:53:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:53:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:53:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:55:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:55:06 UTC] PHP Stack trace:
+[20-Jan-2020 02:55:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:55:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:55:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:55:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:55:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:57:08 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:57:08 UTC] PHP Stack trace:
+[20-Jan-2020 02:57:08 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:57:08 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:57:08 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:57:08 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:57:08 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 02:59:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 02:59:10 UTC] PHP Stack trace:
+[20-Jan-2020 02:59:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 02:59:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 02:59:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 02:59:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 02:59:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:01:16 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:01:16 UTC] PHP Stack trace:
+[20-Jan-2020 03:01:16 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:01:16 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:01:16 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:01:16 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:01:16 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:03:22 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:03:22 UTC] PHP Stack trace:
+[20-Jan-2020 03:03:22 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:03:22 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:03:22 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:03:22 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:03:22 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:03:22 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:03:22 UTC] PHP Stack trace:
+[20-Jan-2020 03:03:22 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:0
+[20-Jan-2020 03:03:22 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-cron.php:44
+[20-Jan-2020 03:03:22 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:03:22 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:03:22 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:05:34 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:05:34 UTC] PHP Stack trace:
+[20-Jan-2020 03:05:34 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:05:34 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:05:34 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:05:34 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:05:34 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:07:36 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:07:36 UTC] PHP Stack trace:
+[20-Jan-2020 03:07:36 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:07:36 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:07:36 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:07:36 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:07:36 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:09:41 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:09:41 UTC] PHP Stack trace:
+[20-Jan-2020 03:09:41 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:09:41 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:09:41 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:09:41 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:09:41 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:11:45 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:11:45 UTC] PHP Stack trace:
+[20-Jan-2020 03:11:45 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:11:45 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:11:45 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:11:45 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:11:45 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:13:51 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:13:51 UTC] PHP Stack trace:
+[20-Jan-2020 03:13:51 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:13:51 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:13:51 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:13:51 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:13:51 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:16:00 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:16:00 UTC] PHP Stack trace:
+[20-Jan-2020 03:16:00 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:16:00 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:16:00 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:16:00 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:16:00 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:18:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:18:03 UTC] PHP Stack trace:
+[20-Jan-2020 03:18:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:18:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:18:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:18:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:18:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:20:03 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:20:03 UTC] PHP Stack trace:
+[20-Jan-2020 03:20:03 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:20:03 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:20:03 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:20:03 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:20:03 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:22:05 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:22:05 UTC] PHP Stack trace:
+[20-Jan-2020 03:22:05 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:22:05 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:22:05 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:22:05 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:22:05 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:24:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:24:06 UTC] PHP Stack trace:
+[20-Jan-2020 03:24:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:24:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:24:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:24:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:24:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:25:19 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:25:19 UTC] PHP Stack trace:
+[20-Jan-2020 03:25:19 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:0
+[20-Jan-2020 03:25:19 UTC] PHP   2. require() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:17
+[20-Jan-2020 03:25:19 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php:13
+[20-Jan-2020 03:25:19 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:25:19 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:25:19 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:26:06 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:26:06 UTC] PHP Stack trace:
+[20-Jan-2020 03:26:06 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:26:06 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:26:06 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:26:06 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:26:06 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:26:33 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:26:33 UTC] PHP Stack trace:
+[20-Jan-2020 03:26:33 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:0
+[20-Jan-2020 03:26:33 UTC] PHP   2. require() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php:17
+[20-Jan-2020 03:26:33 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php:13
+[20-Jan-2020 03:26:33 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:26:33 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:26:33 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:27:10 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:27:10 UTC] PHP Stack trace:
+[20-Jan-2020 03:27:10 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:0
+[20-Jan-2020 03:27:10 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin-ajax.php:22
+[20-Jan-2020 03:27:10 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:27:10 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:27:10 UTC] PHP   5. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 03:27:12 UTC] PHP Warning:  Use of undefined constant menus - assumed 'menus' (this will throw an Error in a future version of PHP) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 54
+[20-Jan-2020 03:27:12 UTC] PHP Stack trace:
+[20-Jan-2020 03:27:12 UTC] PHP   1. {main}() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:0
+[20-Jan-2020 03:27:12 UTC] PHP   2. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/nav-menus.php:13
+[20-Jan-2020 03:27:12 UTC] PHP   3. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-admin/admin.php:34
+[20-Jan-2020 03:27:12 UTC] PHP   4. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-load.php:37
+[20-Jan-2020 03:27:12 UTC] PHP   5. require_once() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-config.php:77
+[20-Jan-2020 03:27:12 UTC] PHP   6. include() /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-settings.php:497
+[20-Jan-2020 16:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 16:45:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 16:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 16:46:05 UTC] WordPress database error Table 'local.wp_options' doesn't exist for query SHOW FULL COLUMNS FROM `wp_options` made by do_action('wp_ajax_processHardener'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Defender\Module\Hardener\Controller\Main->processHardener, do_action('processingHardenerdb_prefix'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Defender\Module\Hardener\Component\DB_Prefix->process, Hammer\WP\Settings->save, update_option
+[20-Jan-2020 16:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 18:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 19:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 20:55:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 21:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[20-Jan-2020 21:59:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/functions.php on line 44
+[21-Jan-2020 23:53:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/theme-compat/embed.php on line 13
+[25-Feb-2020 23:46:39 UTC] 
+[25-Feb-2020 23:50:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/header.php:28
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php(671): load_template('/Users/donnywil...', true)
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php(1): get_header()
+#4 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template-loader.php(98): include('/Users/donnywil...')
+#5 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php(19): require_once('/Users/donnywil...')
+#6 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php(17): require('/Users/donnywil. in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/header.php on line 28
+[25-Feb-2020 23:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/header.php:28
+Stack trace:
+#0 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template.php(671): load_template('/Users/donnywil...', true)
+#2 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/front-page.php(1): get_header()
+#4 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-includes/template-loader.php(98): include('/Users/donnywil...')
+#5 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-blog-header.php(19): require_once('/Users/donnywil...')
+#6 /Users/donnywilson/Local Sites/evergreen-escapes/app/public/index.php(17): require('/Users/donnywil. in /Users/donnywilson/Local Sites/evergreen-escapes/app/public/wp-content/themes/829theme/header.php on line 28

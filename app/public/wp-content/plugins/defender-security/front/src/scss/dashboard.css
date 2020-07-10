@@ -1,0 +1,61 @@
+@media (min-width: 783px) {
+  .defender-dashboard .sui-summary:not(.sui-unbranded) {
+    background-image: url("../img/dashboard-defender.svg");
+    background-repeat: no-repeat;
+    background-size: 192px 182px;
+    background-position: 30px bottom;
+  }
+  .defender-dashboard .sui-summary:not(.sui-unbranded) .sui-summary-image-space {
+    width: 222px;
+    display: block;
+  }
+  .defender-dashboard .sui-summary:not(.sui-unbranded) .sui-summary-segment {
+    overflow: visible;
+  }
+  .defender-dashboard .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip {
+    position: relative;
+    top: -22px;
+  }
+  .defender-dashboard .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip i {
+    top: 0;
+    left: 0;
+  }
+}
+
+.defender-dashboard .sui-field-list .sui-field-list-body .sui-field-list-item .sui-field-list-item-label strong {
+  color: #333;
+  font-size: 13px;
+}
+
+.defender-dashboard .sui-field-list .sui-field-list-body .sui-field-list-item span {
+  font-size: 13px;
+}
+
+.defender-dashboard .advanced-tools strong {
+  color: #333;
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-1 {
+  background-image: url("../img/plugins-smush.jpg");
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-1 span {
+  background-image: url("../img/plugins-smush-icon.png");
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-2 {
+  background-image: url("../img/plugins-hummingbird.jpg");
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-2 span {
+  background-image: url("../img/plugins-hummingbird-icon.png");
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-3 {
+  background-image: url("../img/plugins-smartcrawl.jpg");
+}
+
+.defender-dashboard .sui-cross-sell-modules .sui-cross-3 span {
+  background-image: url("../img/plugins-smartcrawl-icon.png");
+}
+/*# sourceMappingURL=dashboard.css.map */

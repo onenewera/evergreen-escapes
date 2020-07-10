@@ -1,0 +1,78 @@
+@media (min-width: 783px) {
+  .security-tweaks .sui-summary:not(.sui-unbranded) {
+    background-image: url("../img/tweak-summary.svg");
+    background-repeat: no-repeat;
+    background-position: 30px bottom;
+  }
+  .security-tweaks .sui-summary:not(.sui-unbranded) .sui-summary-image-space {
+    display: block;
+  }
+  .security-tweaks .sui-summary:not(.sui-unbranded) .sui-summary-segment {
+    overflow: visible;
+  }
+  .security-tweaks .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip {
+    position: relative;
+    top: -22px;
+  }
+  .security-tweaks .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip i {
+    top: 0;
+    left: 0;
+  }
+  .security-tweaks .sui-summary.sui-rebranded {
+    background-size: 200px auto;
+  }
+}
+
+.security-tweaks .sui-accordion-item .sui-accordion-item-body .sui-box .sui-box-body strong {
+  color: #333;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.security-tweaks .sui-accordion-item .sui-accordion-item-body .sui-box .sui-box-body .sui-notice {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sui-cant-dismiss.defender-csp-debug-staging {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.sui-cant-dismiss.defender-csp-debug-staging .sui-cnotice-dismiss {
+  margin: -15px -20px -15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sui-cant-dismiss.defender-csp-debug-staging .sui-cnotice-dismiss button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background-color: #f8f8f8 !important;
+  border-radius: 0 4px 4px 0;
+  width: auto;
+  height: auto;
+}
+/*# sourceMappingURL=security-tweaks.css.map */

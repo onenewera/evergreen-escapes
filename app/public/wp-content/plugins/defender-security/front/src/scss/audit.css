@@ -1,0 +1,63 @@
+@media (min-width: 783px) {
+  .auditing .sui-summary:not(.sui-unbranded) {
+    background-image: url("../img/auditting-man.svg");
+    background-repeat: no-repeat;
+    background-position: 30px 40px;
+    background-size: 250px;
+  }
+  .auditing .sui-summary:not(.sui-unbranded) .sui-summary-image-space {
+    display: block;
+  }
+  .auditing .sui-summary.sui-rebranded {
+    background-size: 200px auto;
+  }
+}
+
+.auditing .sui-pagination-filter .sui-form-field .sui-checkbox span {
+  font-size: 13px;
+}
+
+.auditing .sui-center-box {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.auditing .sui-accordion .sui-accordion-header div:nth-child(1) {
+  -ms-flex-preferred-size: 60% !important;
+      flex-basis: 60% !important;
+}
+
+.auditing .sui-accordion .sui-accordion-header div:nth-child(2) {
+  -ms-flex-preferred-size: 20% !important;
+      flex-basis: 20% !important;
+}
+
+.auditing .sui-accordion .sui-accordion-header div:nth-child(3) {
+  -ms-flex-preferred-size: 10% !important;
+      flex-basis: 10% !important;
+}
+
+.auditing .sui-accordion .sui-accordion-item .sui-accordion-item-header div:nth-child(1) {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.auditing .sui-accordion .sui-accordion-item .sui-accordion-item-header div:nth-child(2) {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.auditing .sui-accordion .sui-accordion-item .sui-accordion-item-header div:nth-child(3) {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.auditing .audit-settings .select-container {
+  width: 176px;
+}
+/*# sourceMappingURL=audit.css.map */

@@ -1,0 +1,224 @@
+.file-scanning {
+  /* PrismJS 1.17.1
+ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
+  /**
+   * prism.js default theme for JavaScript, CSS and HTML
+   * Based on dabblet (http://dabblet.com)
+   * @author Lea Verou
+   */
+  /* Code blocks */
+  /* Inline code */
+}
+
+.file-scanning #scanning-dialog .sui-box-body:not(.scanning-free):not(.scanning-blank) {
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.file-scanning #scanning-dialog .sui-box-body:not(.scanning-free):not(.scanning-blank) .scanning-man {
+  background-image: url("../img/scanning-man.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 192px;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -92px;
+}
+
+@media (min-width: 783px) {
+  .file-scanning .sui-summary:not(.sui-unbranded) {
+    background-image: url("../img/scan-result-man.svg");
+    background-repeat: no-repeat;
+    background-position: 30px bottom;
+  }
+  .file-scanning .sui-summary:not(.sui-unbranded) .sui-summary-image-space {
+    display: block;
+    width: 222px;
+    height: 212px;
+  }
+  .file-scanning .sui-summary:not(.sui-unbranded) .sui-summary-segment {
+    overflow: visible;
+  }
+  .file-scanning .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip {
+    position: relative;
+    top: -22px;
+  }
+  .file-scanning .sui-summary:not(.sui-unbranded) .sui-summary-segment .sui-summary-details span.sui-tooltip i {
+    top: 0;
+    left: 0;
+  }
+  .file-scanning .sui-summary.sui-rebranded {
+    background-size: 200px auto;
+  }
+}
+
+.file-scanning .sui-table tbody tr td {
+  word-break: break-all;
+}
+
+.file-scanning .sui-accordion-item-title .sui-checkbox {
+  margin-right: 10px !important;
+}
+
+.file-scanning .sui-box-body.scanning-free {
+  padding-bottom: 0 !important;
+}
+
+.file-scanning .sui-box-body.scanning-free .sui-upsell-notice {
+  margin-bottom: 35px;
+}
+
+.file-scanning .sui-box-body.scanning-free img.sui-upsell-image {
+  height: 215px;
+  width: auto !important;
+}
+
+.file-scanning code ins {
+  background-color: #97f295;
+  text-decoration: none;
+}
+
+.file-scanning code del {
+  background-color: #fdd;
+  text-decoration: none;
+}
+
+.file-scanning code[class*="language-"],
+.file-scanning pre[class*="language-"] {
+  color: black;
+  background: none;
+  text-shadow: 0 1px white;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.file-scanning pre[class*="language-"]::-moz-selection, .file-scanning pre[class*="language-"] ::-moz-selection,
+.file-scanning code[class*="language-"]::-moz-selection, .file-scanning code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+.file-scanning pre[class*="language-"]::selection, .file-scanning pre[class*="language-"] ::selection,
+.file-scanning code[class*="language-"]::selection, .file-scanning code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+@media print {
+  .file-scanning code[class*="language-"],
+  .file-scanning pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
+.file-scanning code[class*="language-"] {
+  border: none;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.file-scanning pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+}
+
+.file-scanning :not(pre) > code[class*="language-"],
+.file-scanning pre[class*="language-"] {
+  background: #f5f2f0;
+}
+
+.file-scanning :not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+}
+
+.file-scanning .token.comment,
+.file-scanning .token.prolog,
+.file-scanning .token.doctype,
+.file-scanning .token.cdata {
+  color: slategray;
+}
+
+.file-scanning .token.punctuation {
+  color: #999;
+}
+
+.file-scanning .namespace {
+  opacity: .7;
+}
+
+.file-scanning .token.property,
+.file-scanning .token.tag,
+.file-scanning .token.boolean,
+.file-scanning .token.number,
+.file-scanning .token.constant,
+.file-scanning .token.symbol,
+.file-scanning .token.deleted {
+  color: #905;
+}
+
+.file-scanning .token.selector,
+.file-scanning .token.attr-name,
+.file-scanning .token.string,
+.file-scanning .token.char,
+.file-scanning .token.builtin,
+.file-scanning .token.inserted {
+  color: #690;
+}
+
+.file-scanning .token.operator,
+.file-scanning .token.entity,
+.file-scanning .token.url,
+.file-scanning .language-css .token.string,
+.file-scanning .style .token.string {
+  color: #9a6e3a;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.file-scanning .token.atrule,
+.file-scanning .token.attr-value,
+.file-scanning .token.keyword {
+  color: #07a;
+}
+
+.file-scanning .token.function,
+.file-scanning .token.class-name {
+  color: #DD4A68;
+}
+
+.file-scanning .token.regex,
+.file-scanning .token.important,
+.file-scanning .token.variable {
+  color: #e90;
+}
+
+.file-scanning .token.important,
+.file-scanning .token.bold {
+  font-weight: bold;
+}
+
+.file-scanning .token.italic {
+  font-style: italic;
+}
+
+.file-scanning .token.entity {
+  cursor: help;
+}
+/*# sourceMappingURL=file-scanning.css.map */
